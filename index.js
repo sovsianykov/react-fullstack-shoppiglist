@@ -47,15 +47,15 @@ app.post("/api/message", (req,res) => {
 })
 app.get("/api/messages", (req,res) =>{
     mongoMessages.find((err,data) =>{
-        if (err) {
-            res.status(500).send(err)
-        } else {
-            data.sort((b,a) =>{
-                return a.timestamp - b.timestamp;
-            })
+        // if (err) {
+        //     res.status(500).send(err)
+        // } else {
+        //     data.sort((b,a) =>{
+        //         return a.timestamp - b.timestamp;
+        //     })
             res.status(201).send(data)
 
-        }
+        // }
     })
 })
 
