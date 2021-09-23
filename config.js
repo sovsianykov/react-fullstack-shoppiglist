@@ -1,0 +1,1 @@
+export const  mongo_Uri = 'mongodb+srv://user:fender1979@cluster0.ftz5u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
