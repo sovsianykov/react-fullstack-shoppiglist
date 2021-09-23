@@ -4,6 +4,7 @@ const messageSchema = mongoose.Schema({
     username: String,
     message: String,
     date: String,
+    timestamp:String,
 })
 
 
