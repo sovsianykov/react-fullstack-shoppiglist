@@ -15,8 +15,8 @@ app.use(cors())
 async function startApp() {
     try {
         await mongoose.connect(mongo_Uri)
-        app.listen(PORT,() => {
-            console.log('SERVER IS RUNNING ON PORT ' + PORT)} )
+        // app.listen(PORT,() => {
+        //     console.log('SERVER IS RUNNING ON PORT ' + PORT)} )
 
     }
     catch (e) {
