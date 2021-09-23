@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node  server.js"
+    "start": " nodemon  server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "mongoose": "^6.0.7",
     "mysql2": "^2.3.0",
     "nodemon": "^2.0.12",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "pusher": "^5.0.0"
   }
 }
