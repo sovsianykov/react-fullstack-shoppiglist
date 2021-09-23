@@ -25,7 +25,7 @@ async function startApp() {
 }
 mongoose.connection.once('open', () =>{
     console.log('Mongo Is ok!')
-    const changeStream = mongoose.connection.collection('messages').watch()
+
 })
 startApp()
 
