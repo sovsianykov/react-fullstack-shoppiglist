@@ -19,7 +19,7 @@
     "mongoose": "^6.0.7",
     "mysql2": "^2.3.0",
     "nodemon": "^2.0.12",
-    "prettier": "^2.4.1",
+    "concurrently": "^6.2.2",
     "pusher": "^5.0.0"
   }
 }
